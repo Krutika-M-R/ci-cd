@@ -2,7 +2,9 @@ name: CI-CD build and deploy
 
 on:
   push:
-    - main
+    branches:
+      - main
+
 env:
   IMAGE_NAME: CI-CD
 
